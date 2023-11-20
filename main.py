@@ -3,4 +3,4 @@ def greet(name):
 
 greet("Zdravko")
 
-greet("Fuck you")
+greet("I am sorry")
