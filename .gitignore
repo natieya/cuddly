@@ -38,3 +38,6 @@ instance/config.py
 # Ignore specific scripts
 delete_all_posts.py
 delete_all_users.py
+
+# Ignore .env file
+.env
