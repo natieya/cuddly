@@ -1,0 +1,40 @@
+# .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local configuration file (if you're using dotenv)
+instance/.env
+
+# SQLAlchemy database file
+*.db
+
+# SQLite files
+*.sqlite
+
+# IDE-specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Virtual environment
+venv/
+
+# Generated migration files
+migrations/versions/
+
+# Compiled Python files
+*.pyc
+
+# Log files
+*.log
+
+# Configuration files
+instance/config.py
+
+# Ignore specific scripts
+delete_all_posts.py
+delete_all_users.py

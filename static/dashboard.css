@@ -1,0 +1,22 @@
+/* static/dashboard.css */
+
+/* Add your custom styling for the dashboard here */
+h2 {
+  color: #333;
+}
+
+.post {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}

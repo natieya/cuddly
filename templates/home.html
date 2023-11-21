@@ -1,0 +1,14 @@
+<!-- templates/home.html -->
+
+{% extends "base.html" %}
+
+{% block content %}
+  <h2>Welcome to the Blog</h2>
+  {% if current_user.is_authenticated %}
+    <p>Hello, {{ current_user.username }}!</p>
+    <p><a href="{{ url_for('logout') }}">Logout</a></p>
+  {% else %}
+    <p>Please <a href="{{ url_for('login') }}">login</a> to create posts.</p>
+  {% endif %}
+  <!-- Display blog posts here -->
+{% endblock %}
